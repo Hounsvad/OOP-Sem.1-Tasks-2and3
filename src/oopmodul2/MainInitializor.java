@@ -70,34 +70,43 @@ public class MainInitializor {
                 }
 
             }
-
+            System.out.println("---------------------------|Start of " + list[userInput - 1] + "|---------------------------");
             switch (userInput) {
                 case 1:
                     OPGA1.Main();
+                    System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
                     break;
                 case 2:
                     OPGA2.Main();
+                    System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
                     break;
                 case 3:
                     OPGA3.Main();
+                    System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
                     break;
                 case 4:
                     Liang2_1.Main();
+                    System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
                     break;
                 case 5:
                     Liang2_2.Main();
+                    System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
                     break;
                 case 6:
                     Liang2_6.Main();
+                    System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
                     break;
                 case 7:
                     Liang2_7.Main();
+                    System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
                     break;
                 case 8:
-                    Liang2_7.Main();
+                    Liang2_23.Main();
+                    System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
                     break;
                 case 0:
                     loop = false;
+                    System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
                     break;
                 default:
                     throw new AssertionError();

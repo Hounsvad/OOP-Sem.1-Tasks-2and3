@@ -55,7 +55,7 @@ public class Liang2_7 {
         hours = (int) (((userInput % 31536000) % 86400) / 3600);
         seconds = (int) (((userInput % 31536000) % 86400) % 3600);
 
-        System.out.print(
+        System.out.println(
                 "The input were " + userInput
                 + "\nThe number of years is: " + years
                 + "\nand " + days
