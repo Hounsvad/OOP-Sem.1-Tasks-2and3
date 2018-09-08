@@ -10,7 +10,7 @@ package oopmodul2;
  * @author frederik
  */
 /**
- * Task (Cost of driving) Write a program that promts the user to enter the
+ * Task (Cost of driving) Write a program that prompts the user to enter the
  * distance to drive, the fuel efficiency of the car in miles per gallon, and
  * the trice per gallon then display the cost of the trip
  *
