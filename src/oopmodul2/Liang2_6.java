@@ -16,10 +16,9 @@ public class Liang2_6 {
         short userInput = 0;
         short[] userInputArr = new short[4];
         short result = -1;
-        boolean loop = true;
 
         //Ask for user input
-        while (loop) {
+        while (true) {
             //Try catch statement for error handeling
             try {
                 //Ask user for input
@@ -40,7 +39,7 @@ public class Liang2_6 {
                     throw new IllegalArgumentException("Input has to be a numbber between 0 and 1000");
                 }
                 //End the input request loop
-                loop = false;
+                break;
 
             } catch (IllegalArgumentException e) {
                 //In the event of illegal input

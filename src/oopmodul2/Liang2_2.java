@@ -18,7 +18,6 @@ public class Liang2_2 {
         
         //Declaring variables
         double area;
-        double sqr3 = Math.sqrt(3.0);
         double volume;
         double length;
         

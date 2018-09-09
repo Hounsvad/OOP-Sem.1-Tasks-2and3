@@ -26,10 +26,6 @@ public class Liang2_7 {
         int days = 0;
         int years = 0;
         int seconds = 0;
-
-        int hoursRemainder = 0;
-        int daysRemainder = 0;
-
         long userInput = 0;
 
         //Getting user input
@@ -42,11 +38,11 @@ public class Liang2_7 {
                 } else {
                     throw new IllegalArgumentException("Input not a valid integer");
                 }
+                break;
             } catch (Exception e) {
                 input.next();
                 System.out.println(e);
             }
-            loop = false;
         }
 
         //Calculating result

@@ -27,7 +27,7 @@ public class Liang2_23 {
         //Declaring variables
         double mpg = 0;
         double miles = 0;
-        double ppg = 0;                ;
+        double ppg = 0;
 
         //Getting user input
         //Getting driving disctance
