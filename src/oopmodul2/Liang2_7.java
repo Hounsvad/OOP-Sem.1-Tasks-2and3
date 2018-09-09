@@ -16,6 +16,7 @@ public class Liang2_7 {
 
     public static final int secInYear = 31536000;
     public static final int secInDay = 86400;
+    public static final int secInHour = 3600;
 
     public static void Main() {
         //Initialization of class instances
@@ -46,10 +47,10 @@ public class Liang2_7 {
         }
 
         //Calculating result
-        years = (int) (userInput / 31536000);
-        days = (int) ((userInput % 31536000) / 86400);
-        hours = (int) (((userInput % 31536000) % 86400) / 3600);
-        seconds = (int) (((userInput % 31536000) % 86400) % 3600);
+        years = (int) (userInput / secInYear);
+        days = (int) ((userInput % secInYear) / secInDay);
+        hours = (int) (((userInput % secInYear) % secInDay) / secInHour);
+        seconds = (int) (((userInput % secInYear) % secInDay) % secInHour);
 
         System.out.println(
                 "The input were " + userInput
