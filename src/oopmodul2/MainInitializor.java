@@ -27,6 +27,7 @@ public class MainInitializor {
             "Opgave 2.1",
             "Opgave 2.2",
             "Opgave 2.6",
+            "Opgave 2.6 Alternative solution",
             "Opgave 2.7",
             "Opgave 2.23"
         };
@@ -97,10 +98,14 @@ public class MainInitializor {
                     System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
                     break;
                 case 7:
-                    Liang2_7.Main();
+                    Liang2_6Alternate.Main();
                     System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
                     break;
                 case 8:
+                    Liang2_7.Main();
+                    System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
+                    break;
+                case 9:
                     Liang2_23.Main();
                     System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
                     break;
