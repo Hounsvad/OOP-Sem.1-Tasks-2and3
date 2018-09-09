@@ -28,7 +28,8 @@ public class Liang2_6Alternate {
                 char[] userInput = input.next().toCharArray();
                 //Calculating output
                 for (char cipher : userInput) {
-                    sum *= (int) cipher;
+                    sum *= Character.getNumericValue(cipher);
+                    //Sum *= (int)chipher - '0'
                 }
                 //Printing output to console
                 System.out.printf("All the digits multilied is %d %n", sum);
