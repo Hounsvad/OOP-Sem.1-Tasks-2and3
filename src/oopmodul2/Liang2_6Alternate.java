@@ -28,8 +28,8 @@ public class Liang2_6Alternate {
                 char[] userInput = input.next().toCharArray();
                 //Calculating output
                 for (char cipher : userInput) {
-                    sum *= Character.getNumericValue(cipher);
-                    //Sum *= (int)chipher - '0'
+                    sum *= Character.getNumericValue(cipher); // This takes 800 nano sec
+                    //Sum *= (int)chipher - '0' This takes 360 nano sec
                 }
                 //Printing output to console
                 System.out.printf("All the digits multilied is %d %n", sum);
