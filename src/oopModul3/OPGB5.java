@@ -9,6 +9,7 @@ package oopModul3;
  *
  * @author Pinnacle F
  */
+// Skriv et program, der udregner alle primtal under 1.000.000, og udskriver det største.
 public class OPGB5 {
     
 }

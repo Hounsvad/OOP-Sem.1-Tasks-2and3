@@ -9,6 +9,7 @@ package oopModul3;
  *
  * @author Pinnacle F
  */
+//
 public class Liang3_1 {
     
 }
