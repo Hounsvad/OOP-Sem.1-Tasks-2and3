@@ -48,7 +48,6 @@ public class Liang3_1 {
             System.out.println("The first root is " + firstRoot + "\nThe second root is " + secondRoot);
         } else if (discriminant == 0) {
             firstRoot = (0 - userInput[1] + Math.sqrt(Math.pow(userInput[1], 2) - (4 * userInput[0] * userInput[2]))) / (2 * userInput[0]);
-            secondRoot = (0 - userInput[1] - Math.sqrt(Math.pow(userInput[1], 2) - (4 * userInput[0] * userInput[2]))) / (2 * userInput[0]);
             System.out.println("The only root is " + firstRoot);
         } else {
             System.out.println("There are no roots");
