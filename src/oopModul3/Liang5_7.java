@@ -13,5 +13,4 @@ public class Liang5_7 {
     public static void Main(){
         
     }
-    
 }
