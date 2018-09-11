@@ -38,7 +38,9 @@ public class MainInitializor {
         //Initializing classes
         Scanner input = new Scanner(System.in);
 
+        outerloop:
         while (loop) {
+
             clearScreen();
             //Showing the assignemts
             System.out.println("List of completed assignments");
@@ -48,26 +50,23 @@ public class MainInitializor {
 
             //Getting user input
             while (Boolean.TRUE) {
-                try {
-                    System.out.println("Enter a whole number correlating the assignments or type exit");
+                System.out.println("Enter a whole number correlating the assignments or type exit");
 
-                    if (input.hasNextInt()) {
-                        userInput = input.nextInt();
-                        if (userInput < 1 || userInput > list.length) {
-                            System.out.println("Enter a number from the list");
-                            throw new IllegalArgumentException("The entered value was out of bounds");
-                        }
-                    } else if (input.hasNext()) {
-                        if (input.next().equalsIgnoreCase("exit")) {
-                            userInput = 0;
-                        } else {
-                            System.out.println("If you wish to quit enter exit");
-                            throw new IllegalArgumentException("The entered text was not exit");
-                        }
+                if (input.hasNextInt()) {
+                    userInput = input.nextInt();
+                    if (!(userInput < 1 || userInput > list.length)) {
+                        break;
+                    } else {
+                        System.out.println("Enter a number from the list");
                     }
-                    break;
-                } catch (Exception e) {
-                    //System.out.println(e);
+                } else if (input.hasNext()) {
+                    if (input.next().equalsIgnoreCase("exit")) {
+                        userInput = 0;
+                        break outerloop;
+                    } else {
+                        System.out.println("If you wish to quit enter exit");
+                    }
+
                 }
 
             }

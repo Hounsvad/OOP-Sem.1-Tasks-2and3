@@ -30,7 +30,7 @@ public class MainInitializor {
         
         //Initializing classes
         Scanner input = new Scanner(System.in);
-
+        outerloop:
         while (loop) {
             clearScreen();
             //Showing the assignemts
@@ -44,12 +44,15 @@ public class MainInitializor {
 
                 if (input.hasNextInt()) {
                     userInput = input.nextInt();
-                    if (userInput < 1 || userInput > list.length) {
+                    if (!(userInput < 1 || userInput > list.length)) {
+                        break;
+                    }else{    
                         System.out.println("Enter a number from the list");
                     }
                 } else if (input.hasNext()) {
                     if (input.next().equalsIgnoreCase("exit")) {
                         userInput = 0;
+                        break outerloop;
                     } else {
                         System.out.println("If you wish to quit enter exit");
                     }

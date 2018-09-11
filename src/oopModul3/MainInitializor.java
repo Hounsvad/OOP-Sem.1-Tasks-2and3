@@ -37,7 +37,7 @@ public class MainInitializor {
 
         //Initializing classes
         Scanner input = new Scanner(System.in);
-
+        mainloop:
         while (loop) {
             clearScreen();
             //Showing the assignemts
@@ -60,7 +60,7 @@ public class MainInitializor {
                 } else if (input.hasNext()) {
                     if (input.next().equalsIgnoreCase("exit")) {
                         userInput = 0;
-                        break;
+                        break mainloop;
                     } else {
                         System.out.println("If you wish to quit enter exit");
                     }
