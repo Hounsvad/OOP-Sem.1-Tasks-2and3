@@ -56,6 +56,7 @@ public class MainInitializor {
                 }
                 break;
             }
+            System.out.println("---------------------------|Start of " + list[userInput - 1] + "|---------------------------");
             switch (userInput) {
                 case 1:
                     oopmodul2.MainInitializor.Main();
