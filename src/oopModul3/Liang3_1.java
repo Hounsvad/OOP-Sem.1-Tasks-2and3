@@ -52,11 +52,5 @@ public class Liang3_1 {
         } else {
             System.out.println("There are no roots");
         }
-
-        //Enable for debug
-//        System.out.println(userInput[0]);
-//        System.out.println(userInput[1]);
-//        System.out.println(userInput[2]);
-//          System.out.println(discriminant);
     }
 }
