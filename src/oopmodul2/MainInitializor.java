@@ -18,7 +18,7 @@ public class MainInitializor {
         System.out.flush();
     }
 
-    public static void main(String[] args) {
+    public static void Main() {
         //Declaration of variables
         String[] list = new String[]{
             "Opgave A1",
