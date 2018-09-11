@@ -27,7 +27,7 @@ public class Liang5_7 {
             priceAfterSum += compoundInterest(10000, 1.06, i);
         }
 
-        System.out.printf("The tuition starting at $10,000 wil be %.2f%n", priceAfter);
+        System.out.printf("The tuition starting at $10,000 wil be %.2f after 10 years%n", priceAfter);
         System.out.printf("The sum of the price over 4 years after 10 years is %.2f%n", priceAfterSum);
 
     }
