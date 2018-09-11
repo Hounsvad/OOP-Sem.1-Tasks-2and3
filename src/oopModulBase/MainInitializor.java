@@ -24,10 +24,10 @@ public class MainInitializor {
             "Modul 2",
             "Modul 3"
         };
-
+        
         int userInput = 0;
         boolean loop = true;
-
+        
         //Initializing classes
         Scanner input = new Scanner(System.in);
 
@@ -38,7 +38,6 @@ public class MainInitializor {
             for (int i = 1; i <= list.length; i++) {
                 System.out.println(i + ". " + list[i - 1]);
             }
-
             //Getting user input
             while (Boolean.TRUE) {
                 System.out.println("Enter a whole number correlating the assignments or type exit");
@@ -56,7 +55,6 @@ public class MainInitializor {
                     }
                 }
                 break;
-
             }
             switch (userInput) {
                 case 1:
@@ -75,6 +73,5 @@ public class MainInitializor {
                     throw new AssertionError();
             }
         }
-
     }
 }
