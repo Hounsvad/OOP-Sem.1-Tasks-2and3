@@ -65,8 +65,8 @@ public class MainInitializor {
                         System.out.println("If you wish to quit enter exit");
                     }
                 }
-
             }
+
             System.out.println("---------------------------|Start of " + list[userInput - 1] + "|---------------------------");
             switch (userInput) {
                 case 1:
