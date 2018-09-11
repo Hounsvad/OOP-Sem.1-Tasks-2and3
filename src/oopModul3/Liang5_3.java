@@ -14,11 +14,13 @@ public class Liang5_3 {
 
     public static void Main() {
         System.out.println("Celsius      Fahrenheit | Fahrenheit      Celsius");
+        
         double celsius1;
         double fahrenheit1;
         String celsiusString1;
         String fahrenheitString1;
         String spacer1;
+        
         double celsius2;
         double fahrenheit2 = 20;
         String celsiusString2;
