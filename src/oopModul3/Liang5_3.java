@@ -10,5 +10,8 @@ package oopModul3;
  * @author Pinnacle F
  */
 public class Liang5_3 {
+    public static void Main(){
+        
+    }
     
 }

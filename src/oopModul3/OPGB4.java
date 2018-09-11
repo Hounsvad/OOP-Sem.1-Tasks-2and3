@@ -11,5 +11,8 @@ package oopModul3;
  */
 //Skriv et program, der givet en måneds nummer udskriver antallet af dage i denne måned.
 public class OPGB4 {
+    public static void Main(){
+        
+    }
     
 }

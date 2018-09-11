@@ -11,4 +11,7 @@ package oopModul3;
  */
 public class OPGB1 {
     //Skriv et program, der udregner og udskriver arealet (π*r^2) af 5 forskellige cirkler med radius 1, 2, 3, 4 og 5.
+    public static void Main(){
+        
+    }
 }

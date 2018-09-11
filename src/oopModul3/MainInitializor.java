@@ -22,15 +22,14 @@ public class MainInitializor {
     public static void main(String[] args) {
         //Declaration of variables
         String[] list = new String[]{
-            "Opgave A1",
-            "Opgave A2",
-            "Opgave A3",
-            "Opgave 2.1",
-            "Opgave 2.2",
-            "Opgave 2.6",
-            "Opgave 2.6 Alternative solution",
+            "Opgave B1",
+            "Opgave B4",
+            "Opgave B5",
             "Opgave 2.7",
-            "Opgave 2.23"
+            "Opgave 3.1",
+            "Opgave 5.3",
+            "Opgave 5.5",
+            "Opgave 5.7"
         };
 
         int userInput = 0;
@@ -75,39 +74,35 @@ public class MainInitializor {
             System.out.println("---------------------------|Start of " + list[userInput - 1] + "|---------------------------");
             switch (userInput) {
                 case 1:
-                    OPGA1.Main();
+                    OPGB1.Main();
                     System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
                     break;
                 case 2:
-                    OPGA2.Main();
+                    OPGB4.Main();
                     System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
                     break;
                 case 3:
-                    OPGA3.Main();
+                    OPGB5.Main();
                     System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
                     break;
                 case 4:
-                    Liang2_1.Main();
-                    System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
-                    break;
-                case 5:
-                    Liang2_2.Main();
-                    System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
-                    break;
-                case 6:
-                    Liang2_6.Main();
-                    System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
-                    break;
-                case 7:
-                    Liang2_6Alternate.Main();
-                    System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
-                    break;
-                case 8:
                     Liang2_7.Main();
                     System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
                     break;
-                case 9:
-                    Liang2_23.Main();
+                case 5:
+                    Liang3_1.Main();
+                    System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
+                    break;
+                case 6:
+                    Liang5_3.Main();
+                    System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
+                    break;
+                case 7:
+                    Liang5_5.Main();
+                    System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
+                    break;
+                case 8:
+                    Liang5_7.Main();
                     System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
                     break;
                 case 0:

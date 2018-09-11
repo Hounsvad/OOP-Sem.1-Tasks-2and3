@@ -11,5 +11,8 @@ package oopModul3;
  */
 // Skriv et program, der udregner alle primtal under 1.000.000, og udskriver det største.
 public class OPGB5 {
+    public static void Main(){
+        
+    }
     
 }
