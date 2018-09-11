@@ -22,7 +22,7 @@ public class Liang5_3 {
         
         while (celsius < 100) {
             //Calculating
-            cToF = ((celsius * 9) / 5) + 32;
+            cToF = celsius * 1.8 + 32;
             fToC = (fahrenheit-32)/1.8;
             //Printing
             System.out.printf("%-10.2f%10.2f | %-10.2f%10.2f%n", celsius, cToF, fahrenheit, fToC);
