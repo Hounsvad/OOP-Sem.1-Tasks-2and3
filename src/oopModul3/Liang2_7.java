@@ -25,10 +25,10 @@ public class Liang2_7 {
         Scanner input = new Scanner(System.in);
 
         //Declaration of variables
-        int hours = 0;
-        int days = 0;
-        int years = 0;
-        int seconds = 0;
+        int hours;
+        int days;
+        int years;
+        int seconds;
         long userInput = 0;
 
         //Getting user input
