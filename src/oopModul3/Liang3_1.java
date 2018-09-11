@@ -6,7 +6,6 @@
 package oopModul3;
 
 import java.util.Scanner;
-import java.util.Arrays;
 
 /**
  *
@@ -17,9 +16,9 @@ public class Liang3_1 {
 
     public static void Main() {
         //Declaring variable
-        double firstRoot = 0;
-        double secondRoot = 0;
-        double discriminant = 0;
+        double firstRoot;
+        double secondRoot;
+        double discriminant;
         double[] userInput = new double[3];
         String[] userInputRequest = new String[]{"Enter a value for a ", "Enter a value for b ", "Enter a value for c "};
 
