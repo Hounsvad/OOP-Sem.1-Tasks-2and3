@@ -34,7 +34,7 @@ public class MainInitializor {
 
         int userInput = 0;
         boolean loop = true;
-
+        String userInputText = "";
         //Initializing classes
         Scanner input = new Scanner(System.in);
         mainloop:
@@ -58,9 +58,12 @@ public class MainInitializor {
                         System.out.println("Enter a number from the list");
                     }
                 } else if (input.hasNext()) {
-                    if (input.next().equalsIgnoreCase("exit")) {
+                    userInputText = input.next();
+                    if (userInputText.equalsIgnoreCase("exit")) {
                         userInput = 0;
                         break mainloop;
+                    }else if(userInputText.equalsIgnoreCase("terminate")){
+                        System.exit(0);
                     } else {
                         System.out.println("If you wish to quit enter exit");
                     }
