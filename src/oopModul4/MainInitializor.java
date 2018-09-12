@@ -85,10 +85,10 @@ public class MainInitializor {
                     OPGB5.Main();
                     System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
                     break;
-                case 4:
-                    Liang2_7.Main();
-                    System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
-                    break;
+//                case 4:
+//                    Liang2_7.Main();
+//                    System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
+//                    break;
                 case 5:
                     Liang3_1.Main();
                     System.out.println("---------------------------|End of " + list[userInput - 1] + "|---------------------------");
