@@ -15,7 +15,7 @@ public class OPGB5 {
     public static void Main() {
         boolean found = false;
         int lastPrime = 0;
-        long time = System.nanoTime();
+//        long time = System.nanoTime();
         for (int i = 3; i < 1000000; i += 2 ) {
             found = false;
             for (int j = 2; j < Math.sqrt(i); j++) {
@@ -25,12 +25,12 @@ public class OPGB5 {
                 }
             }
             if (!found) {
-                //System.out.println(i);
                 lastPrime = i;
             }
         }
         System.out.println(lastPrime);
-        System.out.println(((double) (System.nanoTime() - time)) / 1000000000 + " Seconds");
+        //System.out.println(((double) (System.nanoTime() - time)) / 1000000000 + " Seconds");
+        
     }
 
 }

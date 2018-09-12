@@ -11,15 +11,12 @@ package oopModul3;
  */
 //(Conversion from Cº to Fº) Write a program that displays the following table (note that farenheit = celsius * 9/5 + 32):
 public class Liang5_5 {
-
     public static void Main() {
         System.out.println("Celsius   Fahrenheit | Fahrenheit   Celsius");
-
         double celsius = 0;
         double fahrenheit = 20;
         double cToF;
         double fToC;
-        
         while (celsius < 100) {
             //Calculating
             cToF = celsius * 1.8 + 32;

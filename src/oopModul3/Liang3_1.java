@@ -21,10 +21,8 @@ public class Liang3_1 {
         double discriminant;
         double[] userInput = new double[3];
         String[] userInputRequest = new String[]{"Enter a value for a ", "Enter a value for b ", "Enter a value for c "};
-
         //initializing instances
         Scanner input = new Scanner(System.in);
-
         //Getting user input
         for (int i = 0; i < userInput.length; i++) {
             while (true) {
@@ -37,7 +35,6 @@ public class Liang3_1 {
                 }
             }
         }
-
         //Calculating discriminant
         discriminant = Math.pow(userInput[1], 2) - (4 * userInput[0] * userInput[2]);
         //Calculating roots
